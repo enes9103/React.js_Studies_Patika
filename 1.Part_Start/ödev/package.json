@@ -1,0 +1,17 @@
+{
+  "name": "learning-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "enes9103@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "node-fetch": "^3.1.0",
+    "slugify": "^1.6.2"
+  }
+}
