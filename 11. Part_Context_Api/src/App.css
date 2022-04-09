@@ -1,0 +1,10 @@
+.app {
+  height: 100vh;
+}
+
+.app.dark {
+  background-color: #282c34;
+  color: #fff;
+}
+
+/* app altında dark varsa yukardakini uygula demek. */
