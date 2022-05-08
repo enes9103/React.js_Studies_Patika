@@ -1,0 +1,22 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+// import App from './App'; app.js componentinde yapılanları açıklama satırına aldık. ve import counter diyerek counter componentini aktif hale getirdik.
+// import Counter from './components/Counter';
+import InputExample from './components/InputExample';
+import reportWebVitals from './reportWebVitals';
+
+
+ReactDOM.render(
+  <React.StrictMode>
+    <InputExample /> 
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+
+// yukarda import ettiğimiz componenti aşağıda render etmemiz gerekiyor.
