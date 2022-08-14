@@ -31,7 +31,6 @@
 // }
 
 // export default App;
-
 //-------------------------------------------------------------------------------------------------------------------------------------
 
 // // Context Provider
@@ -60,7 +59,8 @@
 
 // Theme Switcher Yapımı
 
-// Bu işlemi en dıştaki div'imiz üzerinden götüreceğimiz için yani dark olduğunda farklı bir classname light olduğunda farklı bir classname'i vermek isticez fakat bunu app.js dosyasında yapamam. Çünkü app.js dosyasında bu provider kullanılmaya başlanıyor. Eğer bu App.js componentini sarmalayan bir yapı yoksa kullanamayız. Dolayısıyla container adında bir tane daha component oluşturabiliriz.
+// Bu işlemi en dıştaki div'imiz üzerinden götüreceğimiz için yani dark olduğunda farklı bir classname light olduğunda farklı bir classname'i vermek isticez fakat bunu app.js dosyasında yapamam. Çünkü app.js dosyasında bu provider kullanılmaya başlanıyor. Eğer bu App.js componentini sarmalayan bir yapı yoksa kullanamayız.
+Dolayısıyla container adında bir tane daha component oluşturabiliriz.
 
 import "./App.css";
 import { ThemeProvider } from "./context/ThemeContext";
